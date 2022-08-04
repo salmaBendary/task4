@@ -38,9 +38,6 @@ class Home extends StatelessWidget {
               )),
         ),
         body: SafeArea(
-            child: SizedBox(
-                width: MediaQuery.of(context).size.width, // added
-
                 child: Column(
                     //mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.center,
