@@ -41,9 +41,9 @@ class Home extends StatelessWidget {
                     //mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
+                      
+                      //Search bar
                       Card(
-                        //elevation: 3, 
-                        //shadow\
                         color: const Color.fromARGB(255, 62, 61, 61),
                         elevation: 3, 
                         child: Padding(
@@ -59,14 +59,16 @@ class Home extends StatelessWidget {
                                   style: TextStyle(
                                     fontSize: 15,
                                     color: Colors.grey,
-                                  ),
-                                  textAlign: TextAlign.right,
+                                  ), 
                               )
                             ],
                           ),
                         ),
                       ),
+                      
                       const SizedBox(height: 20),
+                      
+                      //Stories 
                       Row(
                         children: const [
                           Padding(
@@ -116,10 +118,8 @@ class Home extends StatelessWidget {
                         ],
                       ),
 
-                    //Chats 
-                      
+                    //Chats
                       Card(
-                          clipBehavior: Clip.antiAlias,
                           color: Colors.black,
                           child: Column(children: [
                             ListTile(
@@ -137,7 +137,6 @@ class Home extends StatelessWidget {
                           ])),
 
                       Card(
-                          clipBehavior: Clip.antiAlias,
                           color: Colors.black,
                           child: Column(children: [
                             ListTile(
@@ -155,7 +154,6 @@ class Home extends StatelessWidget {
                           ])),
 
                       Card(
-                          clipBehavior: Clip.antiAlias,
                           color: Colors.black,
                           child: Column(children: [
                             ListTile(
@@ -173,7 +171,6 @@ class Home extends StatelessWidget {
                           ])),
 
                       Card(
-                          clipBehavior: Clip.antiAlias,
                           color: Colors.black,
                           child: Column(children: [
                             ListTile(
