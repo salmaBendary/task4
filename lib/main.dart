@@ -37,8 +37,7 @@ class Home extends StatelessWidget {
                 radius: 5,
               )),
         ),
-        body: SafeArea(
-                child: Column(
+        body: Column(
                     //mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
@@ -190,6 +189,6 @@ class Home extends StatelessWidget {
                               ),
                             ),
                           ])), 
-                    ]))));
+                    ]));
   }
 }
